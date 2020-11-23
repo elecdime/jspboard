@@ -1,0 +1,26 @@
+
+3월 16, 2020 11:45:09.25 NEW SESSION
+3월 16, 2020 11:45:09.25 
+3월 16, 2020 11:45:09.25 KLIB_SelfTest return : KLR_OK
+3월 16, 2020 11:45:45.39 
+3월 16, 2020 11:45:45.39 KLIB_SelfTest return : KLR_OK
+
+4월 19, 2020 22:13:31.40 NEW SESSION
+4월 19, 2020 22:13:31.40 [2716:11500:0419/221331.405:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+4월 19, 2020 23:04:21.61 [16700:17056:0419/230421.613:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+
+6월 07, 2020 22:11:33.49 NEW SESSION
+6월 07, 2020 22:11:33.49 [10216:18832:0607/221133.470:ERROR:device_event_log_impl.cc(208)] [22:11:33.470] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 07, 2020 22:11:54.43 [10216:3756:0607/221154.434:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+6월 07, 2020 22:18:35.27 [14052:4812:0607/221835.273:ERROR:device_event_log_impl.cc(208)] [22:18:35.273] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 07, 2020 22:18:56.24 [14052:5448:0607/221856.249:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+
+6월 30, 2020 08:50:01.39 NEW SESSION
+6월 30, 2020 08:50:01.39 [6960:3344:0630/085001.391:ERROR:device_event_log_impl.cc(208)] [08:50:01.391] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 30, 2020 08:50:22.32 [6960:2380:0630/085022.323:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+6월 30, 2020 08:50:47.60 [11760:5880:0630/085047.605:ERROR:device_event_log_impl.cc(208)] [08:50:47.605] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 30, 2020 08:51:08.51 [11760:13336:0630/085108.514:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118
+
+6월 30, 2020 11:19:07.97 NEW SESSION
+6월 30, 2020 11:19:07.97 [9824:16324:0630/111907.969:ERROR:device_event_log_impl.cc(208)] [11:19:07.969] Bluetooth: bluetooth_adapter_winrt.cc:1060 Getting Default Adapter failed.
+6월 30, 2020 11:19:28.94 [9824:14752:0630/111928.947:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -118

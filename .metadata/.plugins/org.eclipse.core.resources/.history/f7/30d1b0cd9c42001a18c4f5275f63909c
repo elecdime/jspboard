@@ -1,0 +1,7 @@
+package user;
+
+public class userDTO {
+String usid;
+String uspw;
+
+}

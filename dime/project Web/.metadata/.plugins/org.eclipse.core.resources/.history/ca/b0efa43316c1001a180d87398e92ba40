@@ -1,0 +1,66 @@
+<%@page import="org.apache.catalina.User"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@page import=user.UserDAO %>
+    <%@page import=java.util.ArrayList %>
+    <%request.setCharacterEncoding("utf-8"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>admin page</title>
+<table style="width:80%">
+
+		<tr style="background-color: cyan">
+
+			<th>아이디</th><th>회원명</th><th>이메일</th><th>전화</th><th>수정</th>
+
+		</tr>
+
+	<%
+
+		ArrayList<UserDAO> list = membermanager.getMemberAll();
+
+		for(MemberDto dto : list){
+
+	%>
+
+			<tr>
+
+				<td><%=dto.getId() %></td>
+
+				<td><%=dto.getName() %></td>
+
+				<td><%=dto.getMail() %></td>
+
+				<td><%=dto.getPhone() %></td>
+
+				<td><a href="javascript:admin_modify_member('<%=dto.getId() %>')">수정하기</a></td>
+
+			</tr>
+
+	<%
+
+		}
+
+	%>
+
+	</table>	
+
+	
+
+	<%@ include file="admin_bottom.jsp" %>
+
+	
+
+	<form action="member_modify_admin_form.jsp" name="modifyFrm" method="post">
+
+		<input type="hidden" name="id">
+
+	</form>
+
+</body>
+
+</html>
+
+
